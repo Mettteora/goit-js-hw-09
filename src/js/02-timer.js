@@ -2,7 +2,7 @@ const spanDays = document.querySelector([data - days]);
 const spanHours = document.querySelector([data - hours]);
 const spanMinutes = document.querySelector([data - minutes]);
 const spanSeconds = document.querySelector([data - seconds]);
-// const fliper = document.querySelector(#datetime-picker);
+const fliper = document.querySelector(`#datetime-picker`);
 console.log(spanDays);
 const options = {
   enableTime: true,
