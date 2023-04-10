@@ -1,8 +1,9 @@
-const btnStart = document.querySelector([data - start]);
-const btnStop = document.querySelector([data - stop]);
+const startButton = document.querySelector('button[data-start]');
 
-btnStart.addEventListener(click, startColorSwitch);
-btnStop.addEventListener(click, stopColorSwitch);
+const btnStop = document.querySelector('button[data-stop]');
+console.log(startButton);
+startButton.addEventListener('click', startColorSwitch);
+btnStop.addEventListener('click', stopColorSwitch);
 
 let timeoutId = null;
 
