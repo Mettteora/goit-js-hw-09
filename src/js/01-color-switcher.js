@@ -23,5 +23,3 @@ function stopColorSwitch() {
   timeoutId = null;
   console.log('stopColorSwitch called');
 }
-
-///////////
