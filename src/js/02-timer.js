@@ -1,4 +1,4 @@
-import flatpickr from 'flatpickr';
+// import flatpickr from 'flatpickr';
 
 const daysSpan = document.querySelector('[data-days]');
 const hoursSpan = document.querySelector('[data-hours]');
